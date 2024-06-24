@@ -8,6 +8,8 @@ This repository is part of the research presented in our paper **"Towards Fast M
 
 
 > **Authors**: **Euiin Yi*** (KAIST AI), **Taehyeon Kim*** (KAIST AI), **Hongseok Jeung** (KT), **Du-Seong Chang** (KT), **Se-Young Yun** (KAIST AI)
+- **Euiin Yi** (KAIST AI) : euiin_mercyii@kaist.ac.kr
+- **Taehyeon Kim** (KAIST AI) : potter32@kaist.ac.kr
 
 The contributors marked with an asterisk (*) contributed equally to this work.
 
