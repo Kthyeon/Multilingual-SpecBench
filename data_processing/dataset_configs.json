@@ -1,0 +1,203 @@
+{
+    "gsm8k": {
+        "abbrev_name": "gsm8k",
+        "data_path": "gsm8k",
+        "subset" : "main",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_math_gsm8k"
+    },
+    "metamathqa": {
+        "abbrev_name": "metamathqa",
+        "data_path": "meta-math/MetaMathQA",
+        "subset" : null,
+        "train": "train",
+        "eval": null,
+        "qa_extraction_fn": "extract_math_metamathqa"
+    },
+    "wmt14_fren": { 
+        "abbrev_name": "wmt14_fren",
+        "data_path": "wmt/wmt14",
+        "subset" : "fr-en",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_translation_fren"
+    },
+    "wmt16_deen": { 
+        "abbrev_name": "wmt16_deen",
+        "data_path": "wmt/wmt16",
+        "subset" : "de-en",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_translation_deen"
+    },
+    "wmt16_csen": {
+        "abbrev_name": "wmt16_csen",
+        "data_path": "wmt/wmt16",
+        "subset" : "cs-en",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_translation_csen"
+    },
+    "wmt16_fien": {
+        "abbrev_name": "wmt16_fien",
+        "data_path": "wmt/wmt16",
+        "subset" : "fi-en",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_translation_fien"
+    },
+    "wmt16_roen": {
+        "abbrev_name": "wmt16_roen",
+        "data_path": "wmt/wmt16",
+        "subset" : "ro-en",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_translation_roen"
+    },
+    "wmt16_ruen": {
+        "abbrev_name": "wmt16_ruen",
+        "data_path": "wmt/wmt16",
+        "subset" : "ru-en",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_translation_ruen"
+    },
+    "wmt16_tren": {
+        "abbrev_name": "wmt16_tren",
+        "data_path": "wmt/wmt16",
+        "subset" : "tr-en",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_translation_tren"
+    }, 
+    "wmt19_zhen": {
+        "abbrev_name": "wmt19_zhen",
+        "data_path": "wmt/wmt19",
+        "subset" : "zh-en",
+        "train": "train",
+        "eval" : "validation",
+        "qa_extraction_fn": "extract_translation_zhen"
+    }, 
+    "wmt19_iten": {
+        "abbrev_name": "wmt19_iten",
+        "data_path": "wmt/wmt19",
+        "subset" : "It-en",
+        "train": "train",
+        "eval" : "validation",
+        "qa_extraction_fn": "extract_translation_zhen"
+    }, 
+    "paracrawl_enes": {
+        "abbrev_name": "paracrawl_enes",
+        "data_path": "para_crawl",
+        "subset" : "enes",
+        "train": "train",
+        "eval" : null,
+        "qa_extraction_fn": "extract_translation_paracrawl_enes"
+    },
+    "paracrawl_enfr": {
+        "abbrev_name": "paracrawl_enfr",
+        "data_path": "para_crawl",
+        "subset" : "enfr",
+        "train": "train",
+        "eval" : null,
+        "qa_extraction_fn": "extract_translation_paracrawl_enfr"
+    },
+    "paracrawl_enit": {
+        "abbrev_name": "paracrawl_enit",
+        "data_path": "para_crawl",
+        "subset" : "enit",
+        "train": "train",
+        "eval" : null,
+        "qa_extraction_fn": "extract_translation_paracrawl_enit"
+    },
+    "paracrawl_enbg": {
+        "abbrev_name": "paracrawl_enbg",
+        "data_path": "para_crawl",
+        "subset" : "enbg",
+        "train": "train",
+        "eval" : null,
+        "qa_extraction_fn": "extract_translation_paracrawl_enbg"
+    },
+    "jparacrawl_v3": {
+        "abbrev_name": "jparacrawl_v3",
+        "data_path": "Verah/JParaCrawl-Filtered-English-Japanese-Parallel-Corpus",
+        "subset" : null,
+        "train": "train",
+        "eval" : null,
+        "qa_extraction_fn": "extract_translation_jparacrawl_japanese"
+    },
+    "natural_questions": {
+        "abbrev_name": "nq",
+        "data_path": "natural_questions",
+        "subset" : "default",
+        "train": "train",
+        "eval" : "validation",
+        "qa_extraction_fn": "extract_qa_nq"
+    },
+    "trivia_qa": {
+        "abbrev_name": "tqa",
+        "data_path": "mandarjoshi/trivia_qa",
+        "subset" : "rc",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_qa_tqa"
+    },
+    "arc_easy": {
+        "abbrev_name": "arc_easy",
+        "data_path": "allenai/ai2_arc",
+        "subset" : "ARC-Easy",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_qa_tqa"
+    },
+    "arc_challenge": { 
+        "abbrev_name": "arc_chal",
+        "data_path": "allenai/ai2_arc",
+        "subset" : "ARC-Challenge",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_qa_tqa"
+    },
+    "cnn_dailymail": {
+        "abbrev_name": "cnn_dm",
+        "data_path": "cnn_dailymail",
+        "subset" : "1.0.0",
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_summ_cnndm"
+    },
+    "samsum": {
+        "abbrev_name": "samsum",
+        "data_path": "samsum",
+        "subset" : null,
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_summ_samsum"
+    },
+    "xsum": {
+        "abbrev_name": "xsum",
+        "data_path": "EdinburghNLP/xsum",
+        "subset" : null,
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_summ_xsum"
+    },
+    "imdb": {
+        "abbrev_name": "imdb",
+        "data_path": "stanfordnlp/imdb",
+        "subset" : null,
+        "train": "train",
+        "eval" : "test",
+        "qa_extraction_fn": "extract_senti_imdb"
+    },
+    "mt_bench": {
+        "abbrev_name": "mt",
+        "data_path": "HuggingFaceH4/mt_bench_prompts",
+        "subset" : null ,
+        "train": "train",
+        "eval" : null,
+        "qa_extraction_fn": "extract_mt"
+    }
+
+}
