@@ -1,4 +1,5 @@
 # Multilingual Speculative Benchmark
+<a href="https://arxiv.org/abs/2406.16758"><img src="https://img.shields.io/badge/Paper-arXiv:2406.16758-Green"></a>
 
 ## 💡 Overview
 
@@ -51,7 +52,12 @@ This work builds upon the insights and frameworks provided by the [Speculative B
 
 If you use our work or dataset, please cite:
 ```
-Will be updated
+@article{yi2024towards,
+  title={Towards Fast Multilingual LLM Inference: Speculative Decoding and Specialized Drafters},
+  author={Yi, Euiin and Kim, Taehyeon and Jeung, Hongseok and Chang, Du-Seong and Yun, Se-Young},
+  journal={arXiv preprint arXiv:2406.16758},
+  year={2024}
+}
 ```
 
 ## License
